@@ -1,3 +1,5 @@
+Here are explanations and screenshots for recent software work which I'm proud of.
+
 ## Master's Thesis: The Computer-Driven, Human-Controlled TTRPG
 
 For my [MSc research thesis]([url](https://www.maxwelljoslyn.com/static/maxwell-joslyn-ms-thesis-v1.0.3.pdf)), I designed, coded, and user-tested ROLEPLAYINGGAME[^1], the first-ever tabletop RPG companion app to support runtime editing of game rules and content without stopping gameplay. I aimed to combine the flexibility of traditional RPGs with the complex, real-time rule evaluation of videogames.
@@ -16,6 +18,6 @@ My master's project grew out of a long-standing personal quest: creating a custo
 
 ## Ryan Quest
 
-I made [the text adventure *Ryan Quest* ](https://www.maxwelljoslyn.com/ryanquest) as a surprise birthday present for my best friend from college, Ryan Wright. The player controls Ryan in a parody of his real life. After doing all the writing, coding, and user testing, I flew out to surprise him with the game in person.
+I made [the text adventure *Ryan Quest*](https://www.maxwelljoslyn.com/ryanquest) as a surprise birthday present for my best friend from college, Ryan Wright. The player controls Ryan in a parody of his real life. After doing all the writing, coding, and user testing, I flew out to surprise him with the game in person.
 
 [^1]:  An acronym for **R**PG **O**peration, **L**earning, and **E**xecution **P**latform **L**aden with **A**dvantages for **Y**ielding **I**nfinitely **N**itty-**G**ritty **G**ames that **A**llow **M**alleable **E**volution.
