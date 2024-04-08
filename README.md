@@ -6,18 +6,18 @@ For my [MSc research thesis]([url](https://www.maxwelljoslyn.com/static/maxwell-
 
 <img width="524" src="https://github.com/maxwelljoslyn/maxwelljoslyn/assets/11641081/160e989f-b0a2-4752-9391-f3b4e759f304">
 
-<img width="524" alt="ss-inspector-param-inserted" src="https://github.com/maxwelljoslyn/maxwelljoslyn/assets/11641081/2d412f53-fa5d-420f-9586-f89c9bd6ba50">
+<img width="524" alt="The GM's Inspector, with a command and one parameter specified." src="https://github.com/maxwelljoslyn/maxwelljoslyn/assets/11641081/2d412f53-fa5d-420f-9586-f89c9bd6ba50">
 
 
 ## Computational TTRPG Tools
 
-My master's project grew out of a long-standing personal quest: creating a custom tabletop RPG with rules so detailed they could only exist as software. Before starting my MSc, I had already developed several tools in this area, including a pricing simulator for over 1,000 17th-century items, and a program that generates characters' life stories based on their stats.
+My master's project grew out of a long-standing personal quest: creating a custom tabletop RPG with rules so detailed they could only exist as software. Before starting my MSc, I had already developed several tools in this area, including a pricing simulator for over 1,000 17th-century items, a program that generates characters' life stories based on their stats, and CLI tools for rapidly updating the game world during live gameplay. I'll discuss the pricing simulator below.
 
-<img width="1048" alt="Screen Shot 2024-04-07 at 18 53 52 PDT" src="https://github.com/maxwelljoslyn/maxwelljoslyn/assets/11641081/5c7ee7a2-5c72-4cc0-8bf2-e6de5f93ba0b">
+<img width="1048" alt="One vendor from a market price table from my homemade RPG app." src="https://github.com/maxwelljoslyn/maxwelljoslyn/assets/11641081/5c7ee7a2-5c72-4cc0-8bf2-e6de5f93ba0b">
 
 The pricing simulator begins with encyclopedia data I've collected on the relative abundance of raw materials at numerous real life towns and cities. The more abundant a material is, the cheaper it is per unit. Tens of thousands of calculations specify quantities like the length and radius of a spear haft, the thickness of a clay pot, or the amount of wood needed to build a shed (unit-aware calculations are made easy with [Pint](https://pint.readthedocs.io/).)
 
-Each of the player-purchaseable items is defined by a "recipe," which I write by doing research on 17th-century manufacturing. Each recipe consists of raw materials and other, simpler recipes; summing the prices for these components gives us the final player-facing price[^2]. Altogether, the set of recipes forms a [forest](https://en.wikipedia.org/wiki/Tree_(graph_theory)#Forest).
+Each of the player-purchaseable items is defined by a "recipe," which I write by doing research on 17th-century manufacturing. Each recipe consists of raw materials and other, simpler recipes; summing the prices for these components gives us the final player-facing price[^2]. Altogether, the set of recipes forms a [directed forest](https://en.wikipedia.org/wiki/Tree_(graph_theory)#Polyforest).
 
 ## Ryan Quest
 
