@@ -11,13 +11,18 @@ For my [MSc research thesis]([url](https://www.maxwelljoslyn.com/static/maxwell-
 
 ## Computational TTRPG Tools
 
-My master's project grew out of a long-standing personal quest: creating a custom tabletop RPG with rules so detailed they could only exist as software. Before starting my MSc, I had already developed several tools in this area, including a pricing simulator for over 1,000 17th-century trade goods, and a program that generates characters' life stories based on their stats.
+My master's project grew out of a long-standing personal quest: creating a custom tabletop RPG with rules so detailed they could only exist as software. Before starting my MSc, I had already developed several tools in this area, including a pricing simulator for over 1,000 17th-century items, and a program that generates characters' life stories based on their stats.
 
 <img width="1048" alt="Screen Shot 2024-04-07 at 18 53 52 PDT" src="https://github.com/maxwelljoslyn/maxwelljoslyn/assets/11641081/5c7ee7a2-5c72-4cc0-8bf2-e6de5f93ba0b">
 
+The pricing simulator begins with encyclopedia data I've collected on the relative abundance of raw materials at numerous real life towns and cities. The more abundant a material is, the cheaper it is per unit. Tens of thousands of calculations specify quantities like the length and radius of a spear haft, the thickness of a clay pot, or the amount of wood needed to build a shed (unit-aware calculations are made easy with [Pint](https://pint.readthedocs.io/).)
+
+Each of the player-purchaseable items is defined by a "recipe," which I write by doing research on 17th-century manufacturing. Each recipe consists of raw materials and other, simpler recipes; summing the prices for these components gives us the final player-facing price[^2]. Altogether, the set of recipes forms a [forest](https://en.wikipedia.org/wiki/Tree_(graph_theory)#Forest).
 
 ## Ryan Quest
 
 I made [the text adventure *Ryan Quest*](https://www.maxwelljoslyn.com/ryanquest) as a surprise birthday present for my best friend from college, Ryan Wright. The player controls Ryan in a parody of his real life. After doing all the writing, coding, and user testing, I flew out to surprise him with the game in person.
 
 [^1]:  An acronym for **R**PG **O**peration, **L**earning, and **E**xecution **P**latform **L**aden with **A**dvantages for **Y**ielding **I**nfinitely **N**itty-**G**ritty **G**ames that **A**llow **M**alleable **E**volution.
+
+[^2]: This glosses over some complexities.
