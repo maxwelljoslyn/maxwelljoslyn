@@ -11,7 +11,9 @@ For my [MSc research thesis]([url](https://www.maxwelljoslyn.com/static/maxwell-
 
 ## Computational TTRPG Tools
 
-My master's project grew out of a long-standing personal quest: creating a custom tabletop RPG with rules so detailed they could only exist as software. Before starting my MSc, I had already developed several tools in this area, including a pricing simulator for over 1,000 17th-century items, a program that generates characters' life stories based on their stats, and CLI tools for rapidly updating the game world during live gameplay. I'll discuss the pricing simulator below.
+My master's project grew out of a long-standing personal quest: creating a custom tabletop RPG with rules so detailed they could only exist as software. Before starting my MSc, I had already developed several tools in this area, including a pricing simulator for over 1,000 17th-century items, a program that generates characters' life stories based on their stats, and CLI tools for rapidly updating the game world during live gameplay.
+
+I'll discuss the pricing simulator below. Here's one of the 50ish tables it creates:
 
 <img width="1048" alt="One vendor from a market price table from my homemade RPG app." src="https://github.com/maxwelljoslyn/maxwelljoslyn/assets/11641081/5c7ee7a2-5c72-4cc0-8bf2-e6de5f93ba0b">
 
