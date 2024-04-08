@@ -1,26 +1,21 @@
-## Portfolio
+## Master's Thesis: The Computer-Driven, Human-Controlled TTRPG
 
-For my MSc research thesis, I designed, developed, and user-tested the first-ever RPG companion app to support fast, fluid edits to game rules at runtime -- without stopping gameplay.
+For my [MSc research thesis]([url](https://www.maxwelljoslyn.com/static/maxwell-joslyn-ms-thesis-v1.0.3.pdf)), I designed, coded, and user-tested ROLEPLAYINGGAME[^1], the first-ever tabletop RPG companion app to support runtime editing of game rules and content without stopping gameplay. I aimed to combine the flexibility of traditional RPGs with the complex, real-time rule evaluation of videogames.
 
-The central responsibility of a Game Master (GM) is being a real-time game designer: he must accomodate open-ended player action by expanding his RPG rules on the fly.  In traditional RPGs, rules are prose that the GM interprets, so he can make sweeping or specific changes at any time by speaking a few words.
+<img width="524" src="https://github.com/maxwelljoslyn/maxwelljoslyn/assets/11641081/160e989f-b0a2-4752-9391-f3b4e759f304">
 
-RPG companion apps (including virtual tabletops, or VTTs) offer important advances like automatic rule interpretation, but they sacrifice the traditional flexibility of analog play. If playing via an app, even the slightest rule change would require a GM to:
-
-- shut down the app
-- hunt down the code controlling rules you want to change, amidst mountains of platform boilerplate
-- write the necessary code, with no game-specific feedback about the impacts of the new rules
-- bump the version of your rule code bundle and upload it to a host where players can download it
-- restart the app server and tell the players to reconnect
-
-This would take tens of minutes at best, and would bring the gameplay to a total halt, so nobody does it. But that slowness is primarily owed to how these apps implement game rules, and what interfaces they offer GMs for designing rules. A companion app could be designed to preserve GMs' roles as run-time game designers, while making that role easier with computational support, such as identifying content that would be affected by rule changes, visualizing probabilities for dice rolls and other randomizers, and running WIP rules in a testing sandbox against copies of live data.
-
-## About Me
-I'm a product-minded software engineer. I don't just write code: I gain domain expertise, I talk to users, and I build the right mix of what they want and what they need.
-
-Some past experiences:
-- Built data pipelines to take a team's ETL operations from "multiple crashes per day" to "we forget it's there"
-- Set up CI/CD and other infrastructure automation for worry-free deployments
--  Wrote and programmed a text adventure starring my college roommate (as a surprise birthday gift)
--  Transformed board and roleplaying games (RPGs) into digital experiences
+<img width="524" alt="ss-inspector-param-inserted" src="https://github.com/maxwelljoslyn/maxwelljoslyn/assets/11641081/2d412f53-fa5d-420f-9586-f89c9bd6ba50">
 
 
+## Computational TTRPG Tools
+
+My master's project grew out of a long-standing personal quest: creating a custom tabletop RPG with rules so detailed they could only exist as software. Before starting my MSc, I had already developed several tools in this area, including a pricing simulator for over 1,000 17th-century trade goods, and a program that generates characters' life stories based on their stats.
+
+<img width="1048" alt="Screen Shot 2024-04-07 at 18 53 52 PDT" src="https://github.com/maxwelljoslyn/maxwelljoslyn/assets/11641081/5c7ee7a2-5c72-4cc0-8bf2-e6de5f93ba0b">
+
+
+## Ryan Quest
+
+I made [the text adventure *Ryan Quest* ](https://www.maxwelljoslyn.com/ryanquest) as a surprise birthday present for my best friend from college, Ryan Wright. The player controls Ryan in a parody of his real life. After doing all the writing, coding, and user testing, I flew out to surprise him with the game in person.
+
+[^1]:  An acronym for **R**PG **O**peration, **L**earning, and **E**xecution **P**latform **L**aden with **A**dvantages for **Y**ielding **I**nfinitely **N**itty-**G**ritty **G**ames that **A**llow **M**alleable **E**volution.
