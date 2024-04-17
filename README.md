@@ -14,11 +14,9 @@ ROLEPLAYINGGAME is a web application. To target the browser, I needed a way to e
 
 To efficiently make all game state available to frontend clients, I sent diffs from the server whenever game state changed. RPG rules are often specified in terms of numerous game state inputs, so limiting potential rule inputs to a subset of game state would too heavily restrict end-user game designers.
 
-<img width="524" src="https://github.com/maxwelljoslyn/maxwelljoslyn/assets/11641081/160e989f-b0a2-4752-9391-f3b4e759f304">
-
-**
-
 <img width="524" alt="The GM's Inspector, with a command and one parameter specified." src="https://github.com/maxwelljoslyn/maxwelljoslyn/assets/11641081/2d412f53-fa5d-420f-9586-f89c9bd6ba50">
+
+*Part of the Game Master UI. Here, the GM uses the Inspector, a context-sensitive menu for dispatching commands on in-game entities.*
 
 ## Computational TTRPG Tools
 
