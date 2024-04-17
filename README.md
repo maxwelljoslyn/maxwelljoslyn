@@ -8,13 +8,15 @@ I'm currently working on [GM Trainer](https://github.com/maxwelljoslyn/gm-traine
 
 For my [MSc research thesis]([url](https://www.maxwelljoslyn.com/static/maxwell-joslyn-ms-thesis-v1.0.3.pdf)), I researched, designed, and programmed ROLEPLAYINGGAME[^1], the first tabletop-RPG companion app to support runtime editing of game rules and content without stopping gameplay. My aims were to:
 1) Combine the flexibility of traditional RPGs with the complex, real-time rule evaluation of videogames.
-2) Assess the viability of an all-in-one platform not only for playing and GMing RPGs, but also for designing them, thereby benefiting a user demographic (game designers) whose needs aren't met by existing apps.
+2) Assess the viability of an all-in-one platform not only for playing and GMing RPGs, but also for designing them, thereby **benefiting a user demographic whose needs aren't met** by existing apps (game designers.)
 
-ROLEPLAYINGGAME is a web application: I chose the browser for my platform to maximize availability. To target the browser, I needed a way to evaluate game rules on the backend and frontend alike, for server-side validation and rule-sensitive UIs respectively. To avoid the risks of code duplication, I implemented ROLEPLAYINGGAME in **Clojure**, which has production-grade compilers to both Java and JavaScript. This made >95% of my code portable to the frontend.
+ROLEPLAYINGGAME is a web application: I targeted the browser to avoid the hassles of targeting multiple operating systems. To target the browser, I needed a way to evaluate game rules on the backend and frontend alike, for server-side validation and rule-sensitive UIs respectively. To avoid the risks of code duplication, I implemented ROLEPLAYINGGAME in **Clojure**, which has production-grade compilers to both Java and JavaScript. This made >95% of my code portable to the frontend.
 
 To efficiently make all game state available to frontend clients, I sent diffs from the server whenever game state changed. RPG rules are often specified in terms of numerous game state inputs, so limiting potential rule inputs to a subset of game state would too heavily restrict end-user game designers.
 
 <img width="524" src="https://github.com/maxwelljoslyn/maxwelljoslyn/assets/11641081/160e989f-b0a2-4752-9391-f3b4e759f304">
+
+**
 
 <img width="524" alt="The GM's Inspector, with a command and one parameter specified." src="https://github.com/maxwelljoslyn/maxwelljoslyn/assets/11641081/2d412f53-fa5d-420f-9586-f89c9bd6ba50">
 
