@@ -2,7 +2,7 @@ Here are explanations and screenshots for recent software work which I'm proud o
 
 ## GM Trainer
 
-I'm currently working on [GM Trainer](https://github.com/maxwelljoslyn/gm-trainer), a tool to help RPG Game Masters (GMs) practice spontaneous creativity. It uses LLMs to simulate human players' responses to the GM's descriptive narration, creating a sandbox for budding GMs to exercise his skills in improvising descriptions, rulings, and answers to player questions.
+I'm currently working on [GM Trainer](https://github.com/maxwelljoslyn/gm-trainer), a program with which Game Masters (GMs) can practice spontaneous creativity. It uses LLMs to simulate human players' responses to the GM's descriptive narration, creating a sandbox for budding GMs to exercise critical skills, including improvising descriptions, answering player questions about the game world, and deciding how the world changes in response to player action.
 
 Much RPG-related AI work is in proof-of-concept attempts to replace the GM, but those are nowhere near good enough to make an impact on the RPG field: a GM is responsible for creating and evolving an enormous, **self-consistent** game world, and AIs can't do that yet. However, AIs are _more_ than capable of "good-enough" simulation of an RPG player!
 
@@ -13,7 +13,6 @@ For my [MSc research thesis]([url](https://www.maxwelljoslyn.com/static/maxwell-
 <img width="524" src="https://github.com/maxwelljoslyn/maxwelljoslyn/assets/11641081/160e989f-b0a2-4752-9391-f3b4e759f304">
 
 <img width="524" alt="The GM's Inspector, with a command and one parameter specified." src="https://github.com/maxwelljoslyn/maxwelljoslyn/assets/11641081/2d412f53-fa5d-420f-9586-f89c9bd6ba50">
-
 
 ## Computational TTRPG Tools
 
@@ -30,6 +29,8 @@ Each of the player-purchaseable items is defined by a "recipe," which I write by
 ## Ryan Quest
 
 I made [the text adventure *Ryan Quest*](https://www.maxwelljoslyn.com/ryanquest) as a surprise birthday present for my best friend from college, Ryan Wright. The player controls Ryan in a parody of his real life. After doing all the writing, coding, and user testing, I flew out to surprise him with the game in person.
+
+*Ryan Quest* was written in Inform 7, an unusual programming language (its syntax looks a lot like English) which is laser-focused on being good for creating interactive fiction (including text adventures.)
 
 [^1]:  An acronym for **R**PG **O**peration, **L**earning, and **E**xecution **P**latform **L**aden with **A**dvantages for **Y**ielding **I**nfinitely **N**itty-**G**ritty **G**ames that **A**llow **M**alleable **E**volution.
 
