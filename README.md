@@ -10,7 +10,7 @@ For my [MSc research thesis]([url](https://www.maxwelljoslyn.com/static/maxwell-
 1) Combine the flexibility of traditional RPGs with the complex, real-time rule evaluation of videogames.
 2) Assess the viability of an all-in-one platform not only for playing and GMing RPGs, but also for designing them, thereby **benefiting a user demographic whose needs aren't met** by existing apps (game designers.)
 
-ROLEPLAYINGGAME is a web application: I targeted the browser to avoid the hassles of targeting multiple operating systems. To target the browser, I needed a way to evaluate game rules on the backend and frontend alike, for server-side validation and rule-sensitive UIs respectively. To avoid the risks of code duplication, I implemented ROLEPLAYINGGAME in **Clojure**, which has production-grade compilers to both Java and JavaScript. This made >95% of my code portable to the frontend.
+ROLEPLAYINGGAME is a web application. To target the browser, I needed a way to evaluate game rules on the backend and frontend alike, for server-side validation and rule-sensitive UIs respectively. I avoided code duplication by implementing ROLEPLAYINGGAME in **Clojure**, which has production-grade compilers to both Java and JavaScript. This made >95% of my backend code portable to the frontend.
 
 To efficiently make all game state available to frontend clients, I sent diffs from the server whenever game state changed. RPG rules are often specified in terms of numerous game state inputs, so limiting potential rule inputs to a subset of game state would too heavily restrict end-user game designers.
 
