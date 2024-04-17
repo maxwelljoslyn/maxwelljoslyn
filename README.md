@@ -2,9 +2,9 @@ Here are explanations and screenshots for recent software work which I'm proud o
 
 ## GM Trainer
 
-I'm currently working on [GM Trainer](https://github.com/maxwelljoslyn/gm-trainer), a program with which Game Masters (GMs) can practice spontaneous creativity. It uses LLMs to simulate human players' responses to the GM's descriptive narration, creating a sandbox for budding GMs to exercise critical skills, including improvising descriptions, answering player questions about the game world, and deciding how the world changes in response to player action.
+I'm currently working on [GM Trainer](https://github.com/maxwelljoslyn/gm-trainer), a sandbox environment in which RPG Game Masters (GMs) can get focused practice with spontaneous creativity. It uses LLMs to simulate human players' responses to the GM's descriptive narration, giving budding GMs a way to exercise critical skills like improvising descriptions, decisively answering player questions, and giving logical game-world response to player actions.
 
-Much RPG-related AI work is in proof-of-concept attempts to replace the GM, but those are nowhere near good enough to make an impact on the RPG field: a GM is responsible for creating and evolving an enormous, **self-consistent** game world, and AIs can't do that yet. However, AIs are _more_ than capable of "good-enough" simulation of an RPG player!
+Currently, most work at the intersection of RPGs and AI is focused on proof-of-concept attempts to replace the GM. Those are coming nowhere close to achieving that goal: a GM is responsible for creating and evolving an enormous, **self-consistent** game world, and AIs can't do that yet. However, AIs are _more_ than capable of "good-enough" simulation of an RPG player, which is enough for it to have a real impact on how people learn to acquire the nuanced, many-faceted skill of GMing.
 
 ## Master's Thesis: The Computer-Driven, Human-Controlled TTRPG
 
