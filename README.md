@@ -1,5 +1,11 @@
 Here are explanations and screenshots for recent software work which I'm proud of.
 
+## GM Trainer
+
+I'm currently working on [GM Trainer](https://github.com/maxwelljoslyn/gm-trainer), a tool to help RPG Game Masters (GMs) practice spontaneous creativity. It uses LLMs to simulate human players' responses to the GM's descriptive narration, creating a sandbox for budding GMs to exercise his skills in improvising descriptions, rulings, and answers to player questions.
+
+Much RPG-related AI work is in proof-of-concept attempts to replace the GM, but those are nowhere near good enough to make an impact on the RPG field: a GM is responsible for creating and evolving an enormous, **self-consistent** game world, and AIs can't do that yet. However, AIs are _more_ than capable of "good-enough" simulation of an RPG player!
+
 ## Master's Thesis: The Computer-Driven, Human-Controlled TTRPG
 
 For my [MSc research thesis]([url](https://www.maxwelljoslyn.com/static/maxwell-joslyn-ms-thesis-v1.0.3.pdf)), I designed, coded, and user-tested ROLEPLAYINGGAME[^1], the first-ever tabletop RPG companion app to support runtime editing of game rules and content without stopping gameplay. I aimed to combine the flexibility of traditional RPGs with the complex, real-time rule evaluation of videogames.
