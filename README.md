@@ -4,6 +4,8 @@ Here are descriptions of recent software projects I'm allowed to discuss (i.e. n
 
 I'm currently working on [GM Trainer](https://github.com/maxwelljoslyn/gm-trainer), a sandbox environment in which RPG Game Masters (GMs) can get focused practice with spontaneous creativity. It uses LLMs to simulate human players' responses to the GM's descriptive narration, giving budding GMs a way to exercise critical skills like improvising descriptions, decisively answering player questions, and giving logical game-world response to player actions.
 
+https://github.com/maxwelljoslyn/maxwelljoslyn/assets/11641081/87712492-3b84-4ccd-b7c5-10a124ae2147
+
 ## Master's Thesis: The Computer-Driven, Human-Controlled TTRPG
 
 For my [MSc research thesis]([url](https://www.maxwelljoslyn.com/static/maxwell-joslyn-ms-thesis-v1.0.3.pdf)), I researched, designed, and programmed ROLEPLAYINGGAME[^1], the first tabletop-RPG companion app to support runtime editing of game rules and content without stopping gameplay. My aims were to:
