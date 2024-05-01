@@ -8,7 +8,7 @@ Here are descriptions of recent software projects I'm allowed to discuss (i.e. n
 
 ## Master's Thesis: The Computer-Driven, Human-Controlled TTRPG
 
-For my [MSc research thesis]([url](https://www.maxwelljoslyn.com/static/maxwell-joslyn-ms-thesis-v1.0.3.pdf)), I researched, designed, and programmed ROLEPLAYINGGAME[^1], the first tabletop-RPG companion app to support runtime editing of game rules and content without stopping gameplay. My aims were to:
+For my [MSc research thesis](https://escholarship.org/uc/item/0r9246gd), I researched, designed, and programmed ROLEPLAYINGGAME[^1], the first tabletop-RPG companion app to support runtime editing of game rules and content without stopping gameplay. My aims were to:
 1) Combine the flexibility of traditional RPGs with the complex, real-time rule evaluation of videogames.
 2) Assess the viability of an all-in-one platform not only for playing and GMing RPGs, but also for designing them, thereby **benefiting a user demographic whose needs aren't met** by existing apps (game designers.)
 
