@@ -36,7 +36,7 @@ Each purchasable item is defined by a "recipe," which I create by doing research
 
 I made [the text adventure *Ryan Quest*](https://www.maxwelljoslyn.com/ryanquest) as a surprise birthday present for my best friend from college, Ryan Wright. The player controls Ryan in a parody of his real life. After doing all the writing, coding, and user testing, I flew out to surprise him with the game in person.
 
-*Ryan Quest* was written in Inform 7, an unusual programming language which is laser-focused on being good for creating interactive fiction.
+*Ryan Quest* was written in [Inform 7](https://www.inform7.com), an unusual programming language which is laser-focused on being good for creating interactive fiction.
 
 [^1]:  An acronym for **R**PG **O**peration, **L**earning, and **E**xecution **P**latform **L**aden with **A**dvantages for **Y**ielding **I**nfinitely **N**itty-**G**ritty **G**ames that **A**llow **M**alleable **E**volution.
 
