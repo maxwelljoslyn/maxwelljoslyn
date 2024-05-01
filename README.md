@@ -9,8 +9,8 @@ Here are descriptions of recent software projects I'm allowed to discuss (i.e. n
 ## Master's Thesis: The Computer-Driven, Human-Controlled TTRPG
 
 For my [MSc research thesis](https://escholarship.org/uc/item/0r9246gd), I researched, designed, and programmed ROLEPLAYINGGAME[^1], the first tabletop-RPG companion app to support runtime editing of game rules and content without stopping gameplay. My aims were to:
-1) Combine the flexibility of traditional RPGs with the complex, real-time rule evaluation of videogames.
-2) Assess the viability of an all-in-one platform not only for playing and GMing RPGs, but also for designing them, thereby **benefiting a user demographic whose needs aren't met** by existing apps (game designers.)
+1) Combine the flexibility of traditional RPGs with the complex, real-time processing of videogames by **enabling game worlds and game rules to grow and change during use.**
+2) Assess the viability of an all-in-one platform not only for playing and GMing RPGs, but also for designing them, because **game designers' needs aren't met by existing apps.**
 
 ROLEPLAYINGGAME is a web application. To target the browser, I needed a way to evaluate game rules on the backend and frontend alike, for server-side validation and rule-sensitive UIs respectively. I avoided code duplication by implementing ROLEPLAYINGGAME in **Clojure**, which has production-grade compilers to both Java and JavaScript. This made >95% of my backend code portable to the frontend.
 
