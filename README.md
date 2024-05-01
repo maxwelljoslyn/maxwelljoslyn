@@ -14,13 +14,13 @@ For my [MSc research thesis](https://escholarship.org/uc/item/0r9246gd), I resea
 
 ROLEPLAYINGGAME is a web application. To target the browser, I needed a way to evaluate game rules on the backend and frontend alike, for server-side validation and rule-sensitive UIs respectively. I avoided code duplication by implementing ROLEPLAYINGGAME in **Clojure**, which has production-grade compilers to both Java and JavaScript. This made >95% of my backend code portable to the frontend.
 
-To keep all users' frontend UIs in sync, whenever one user acted to change game state, I sent a state diff from the server to all clients.
+To efficiently make game state available to frontend clients, whenever a user action changed the game state, I sent a diff from the server to all clients. Having game state available on clients was necessary to keep information-rich UIs up to date. One of those UIs is shown below.
 
 <img width="524" alt="The GM's Inspector, with a command and one parameter specified." src="https://github.com/maxwelljoslyn/maxwelljoslyn/assets/11641081/2d412f53-fa5d-420f-9586-f89c9bd6ba50">
 
-*The Inspector, part of the Game Master's UI.*
+*The Inspector, part of the Game Master's UI, affords rapid, context-aware interaction with all game entities.*
 
-Here's an example of why it was important to have all game state available on the front end. In the above screenshot, the GM uses the Inspector, a context-sensitive menu for dispatching commands on in-game entities. For each command (like `dislocate`), the parameters for which the character Arvak can slot into (like `target-entity`) are dynamically discovered by introspection on Clojure functions. The GM can click any entity on any main UI screen to add it to the Inspector[^2].
+In this screenshot, a GM is using the Inspector: a context-sensitive menu for dispatching commands on in-game entities. For each command (like `dislocate`), the parameters for which the character Arvak can slot into (like `target-entity`) are dynamically discovered by introspection on Clojure functions. The GM can click any entity on any main UI screen to add it to the Inspector[^2].
 
 ## Computational TTRPG Tools
 
@@ -46,4 +46,4 @@ I made [the text adventure *Ryan Quest*](https://www.maxwelljoslyn.com/ryanquest
 
 [^2]: For instance, the exploration hex grid (partially shown above) would let the GM operate on characters, items, and individual hexes just by clicking.
 
-[^3]: This explanation glosses over some complexities relevant to game design, but not to engineering; I'd be happy to discuss my work (and yours!) in more detail [by email](maxwelljoslyn@gmail.com).
+[^3]: This explanation glosses over some complexities relevant to game design, but not to engineering; I'd be happy to discuss my work (and yours!) in more detail [by email](mailto:maxwelljoslyn@gmail.com).
